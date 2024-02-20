@@ -25,11 +25,18 @@
   opacity: 1;
 }
 .container{
-  width: 50%;
-  animation: popUp 2s ease-in-out;
+  width: 75%;
+  height: 60%;
+  background-color: rgb(230, 43, 43);
+  animation-name: colours;
+  animation-duration: 4s;
 }
 
 
+@keyframes colours {
+  from {background-color: rgb(235, 54, 54);}
+  to {background-color: rgb(247, 119, 14);}
+}
 @keyframes popUp{
   0%{
     transform: scale(0);
@@ -56,6 +63,7 @@
 
   
 }
+
 
 @keyframes fadeOut{
   0%{
